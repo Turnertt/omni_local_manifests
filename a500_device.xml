@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-   <manifest>
-
-	 <remote name="a500_device" fetch="https://github.com/IconiaHD" />
-	 <project path="device/acer/a500" name="device_acer_a500" remote="a500_device" revision="omni-4.4"/>
-
-   </manifest>
+<manifest>
+  <!-- "cprimeltemtr" Repositories. -->
+  <project name="Turnertt/android_device_acer_a500" path="device/acer/a500" remote="github" revision="aosp-7.1" />
+  <project name="IconiaHD/vendor_acer_a500/tree/omni-4.4" path="vendor/acer/a500" revision="omni-4.4" />
+  <project name="Turnertt/android_kernel_samsung_p4" path="kernel/samsung/p4" remote="github" revision="aosp-ng-dev" />
+</manifest>
